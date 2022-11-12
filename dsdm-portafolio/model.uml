@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_pMULYGKrEe2zU5JHoJjXMQ" name="model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_pOIwUGKrEe2zU5JHoJjXMQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_B63v0GKsEe2zU5JHoJjXMQ" name="Sistema">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tkCkIGKsEe2zU5JHoJjXMQ" name="Administrar Proyectos"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wwiVUGKsEe2zU5JHoJjXMQ" name="Administrar Categorias"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yWip0GKsEe2zU5JHoJjXMQ" name="Administrar Usuarios"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0k5XwGKsEe2zU5JHoJjXMQ" name="Actualizar Datos Personales"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_s_okoGKuEe2zU5JHoJjXMQ" client="_tkCkIGKsEe2zU5JHoJjXMQ" supplier="_0k5XwGKsEe2zU5JHoJjXMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5fSOIGKsEe2zU5JHoJjXMQ" memberEnd="_5fV4gGKsEe2zU5JHoJjXMQ _5fXGoGKsEe2zU5JHoJjXMQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5fUqYGKsEe2zU5JHoJjXMQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5fVRcGKsEe2zU5JHoJjXMQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5fV4gGKsEe2zU5JHoJjXMQ" name="administrar proyectos" type="_tkCkIGKsEe2zU5JHoJjXMQ" association="_5fSOIGKsEe2zU5JHoJjXMQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5fXGoGKsEe2zU5JHoJjXMQ" name="usuario" type="_5P2gcGKrEe2zU5JHoJjXMQ" association="_5fSOIGKsEe2zU5JHoJjXMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6xF0QGKsEe2zU5JHoJjXMQ" memberEnd="_6xGbUmKsEe2zU5JHoJjXMQ _6xGbU2KsEe2zU5JHoJjXMQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6xGbUGKsEe2zU5JHoJjXMQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6xGbUWKsEe2zU5JHoJjXMQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6xGbUmKsEe2zU5JHoJjXMQ" name="administrar categorias" type="_wwiVUGKsEe2zU5JHoJjXMQ" association="_6xF0QGKsEe2zU5JHoJjXMQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6xGbU2KsEe2zU5JHoJjXMQ" name="administrador" type="_E4Z38GKsEe2zU5JHoJjXMQ" association="_6xF0QGKsEe2zU5JHoJjXMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7T4_UGKsEe2zU5JHoJjXMQ" memberEnd="_7T6NcmKsEe2zU5JHoJjXMQ _7T6Nc2KsEe2zU5JHoJjXMQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7T6NcGKsEe2zU5JHoJjXMQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7T6NcWKsEe2zU5JHoJjXMQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7T6NcmKsEe2zU5JHoJjXMQ" name="administrar usuarios" type="_yWip0GKsEe2zU5JHoJjXMQ" association="_7T4_UGKsEe2zU5JHoJjXMQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7T6Nc2KsEe2zU5JHoJjXMQ" name="administrador" type="_E4Z38GKsEe2zU5JHoJjXMQ" association="_7T4_UGKsEe2zU5JHoJjXMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-eD1QGKsEe2zU5JHoJjXMQ" memberEnd="_-eEcUmKsEe2zU5JHoJjXMQ _-eEcU2KsEe2zU5JHoJjXMQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-eEcUGKsEe2zU5JHoJjXMQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-eEcUWKsEe2zU5JHoJjXMQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-eEcUmKsEe2zU5JHoJjXMQ" name="actualizar datos personales" type="_0k5XwGKsEe2zU5JHoJjXMQ" association="_-eD1QGKsEe2zU5JHoJjXMQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-eEcU2KsEe2zU5JHoJjXMQ" name="usuario" type="_5P2gcGKrEe2zU5JHoJjXMQ" association="_-eD1QGKsEe2zU5JHoJjXMQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_5P2gcGKrEe2zU5JHoJjXMQ" name="UsuarioGeneral"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_E4Z38GKsEe2zU5JHoJjXMQ" name="Administrador"/>
+</uml:Model>

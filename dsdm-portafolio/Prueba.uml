@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_SNmCUGKqEe2CNp94jqd0Hw" name="PRUEBA" visibility="public">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_SRXIAGKqEe2CNp94jqd0Hw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_SPA-oGKqEe2CNp94jqd0Hw" name="Interaction1"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_SPkYQGKqEe2CNp94jqd0Hw" name="Activity2"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z2iwsGKqEe2CNp94jqd0Hw" name="Usuario" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Fo9LIGKsEe2CNp94jqd0Hw" name="nombre" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9CHbsGKsEe2CNp94jqd0Hw" name="apellido" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gsmFsGKuEe2CNp94jqd0Hw" name="correo">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pGqvAGKuEe2CNp94jqd0Hw" name="foto">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qLS0wGKuEe2CNp94jqd0Hw" name="url_git">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qkW1AGKuEe2CNp94jqd0Hw" name="url_linkedin">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_q039QGKuEe2CNp94jqd0Hw" name="cedula">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_C7U_4GKvEe2CNp94jqd0Hw" name="descripcion">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DLAaoGKvEe2CNp94jqd0Hw" name="celular">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KinE4mKwEe2CNp94jqd0Hw" name="proyecto" type="_MegmUGKvEe2CNp94jqd0Hw" association="_Kimd0GKwEe2CNp94jqd0Hw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L0s-4GKwEe2CNp94jqd0Hw" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MegmUGKvEe2CNp94jqd0Hw" name="Proyecto">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_O0_VgGKvEe2CNp94jqd0Hw" name="descripcion">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_O6kZEGKvEe2CNp94jqd0Hw" name="foto">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PAR_gGKvEe2CNp94jqd0Hw" name="nombre">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PFMUsGKvEe2CNp94jqd0Hw" name="url_proyecto">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PKaL4GKvEe2CNp94jqd0Hw" name="enlace_git">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FFps8mKwEe2CNp94jqd0Hw" name="categoria" type="_y7Y78GKvEe2CNp94jqd0Hw" association="_FFpF4GKwEe2CNp94jqd0Hw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IZmJ8GKwEe2CNp94jqd0Hw" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_y7Y78GKvEe2CNp94jqd0Hw" name="Categoria">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0PUpAGKvEe2CNp94jqd0Hw" name="nombre">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FFpF4GKwEe2CNp94jqd0Hw" memberEnd="_FFps8mKwEe2CNp94jqd0Hw _FFps9WKwEe2CNp94jqd0Hw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FFps8GKwEe2CNp94jqd0Hw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FFps8WKwEe2CNp94jqd0Hw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FFps9WKwEe2CNp94jqd0Hw" name="proyecto" type="_MegmUGKvEe2CNp94jqd0Hw" association="_FFpF4GKwEe2CNp94jqd0Hw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Kimd0GKwEe2CNp94jqd0Hw" memberEnd="_KinE4mKwEe2CNp94jqd0Hw _Kinr8mKwEe2CNp94jqd0Hw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KinE4GKwEe2CNp94jqd0Hw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KinE4WKwEe2CNp94jqd0Hw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Kinr8mKwEe2CNp94jqd0Hw" name="usuario" type="_Z2iwsGKqEe2CNp94jqd0Hw" association="_Kimd0GKwEe2CNp94jqd0Hw"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_X0GF4GKsEe2CNp94jqd0Hw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X0HUAGKsEe2CNp94jqd0Hw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
